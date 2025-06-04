@@ -77,11 +77,29 @@ Build redux_todo from the source and install dependencies:
 
 ### Usage
 
-Run the project with:
+Run the project locally with:
 
 ```sh
 npm start
 ```
+
+---
+
+### Docker
+
+To build and run the project using Docker:
+
+1. **Build the Docker image:**
+    ```sh
+    docker build -t redux-todo-app .
+    ```
+2. **Run the Docker container (with a custom name):**
+    ```sh
+    docker run --name my-todo-app -p 3000:3000 redux-todo-app
+    ```
+    The app will be available at [http://localhost:3000](http://localhost:3000).
+
+---
 
 ### Testing
 
