@@ -9,7 +9,7 @@ import {
   reorderTodos,
 } from '../todos/todoSlice';
 
-import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
+import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
 
 export default function Todos() {
   const dispatch = useDispatch();
@@ -148,4 +148,3 @@ export default function Todos() {
     </div>
   );
 }
- 
